@@ -15,8 +15,8 @@
     <title>Canvas Free HTML5 Responsive Template | Template Stock</title>
 
     <!-- =============== Bootstrap Core CSS =============== -->
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}" type="text/css">
-
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
     <!-- {{asset('css/bootstrap.min.css')}} -->
     <!-- =============== Google fonts =============== -->
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
