@@ -17,19 +17,19 @@
     <!-- =============== Bootstrap Core CSS =============== -->
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
-    <!-- {{asset('css/bootstrap.min.css')}} -->
+    <!-- {{asset('owl-carousel/owl.theme.css')}} -->
     <!-- =============== Google fonts =============== -->
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
     <!-- =============== fonts awesome =============== -->
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}" type="text/css">
     <!-- =============== Plugin CSS =============== -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="{{asset('css/animate.min.css')}}" type="text/css">
     <!-- =============== Custom CSS =============== -->
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}" type="text/css">
     <!-- =============== Owl Carousel Assets =============== -->
-    <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
-    <link href="owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="{{asset('owl-carousel/owl.carousel.css')}}" rel="stylesheet">
+    <link href="{{asset('owl-carousel/owl.theme.css')}}" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
