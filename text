@@ -1,1 +1,4 @@
 Route::get('/pengajuan/renovasi', [SubmissionInputController::class, 'form_renovasi'])->name('user.form_renovasi');
+
+
+<a href="{{ route('atasan.submission.renovation', $data->id) }}">
