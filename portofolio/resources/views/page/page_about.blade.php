@@ -2,5 +2,5 @@
 @section('title','homepage')
 
     @include('layout.header')
-    @include('components.beranda')
+    @include('components.about')
     @include('layout.footer')
