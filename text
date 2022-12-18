@@ -11,3 +11,9 @@ class Rent extends Model
     public $timestamps = false;
     protected $guarded = [];
 }
+
+$total_pengajuan += HouseProcurement::whereUserId(auth()->user()->id)->count();
+        $total_pengajuan += ServiceProcurement::whereUserId(auth()->user()->id)->count();
+        $total_pengajuan += RenovationProcurement::whereUserId(auth()->user()->id)->count();
+
+        return view('user.index', compact('total_pengajuan'));
