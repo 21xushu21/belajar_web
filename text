@@ -4,15 +4,10 @@ Route::get('/pengajuan/renovasi', [SubmissionInputController::class, 'form_renov
 <a href="{{ route('atasan.submission.renovation', $data->id) }}">
 
 
-class Area extends Model
+class Rent extends Model
 {
     use HasFactory;
-    protected $table = "bsi_area";
+    protected $table = "bsi_harga_sewa";
     public $timestamps = false;
     protected $guarded = [];
-
-
-     public function users(){
-        return $this->hasMany(User::class, 'id', 'area');
-    }
 }
